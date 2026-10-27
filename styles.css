@@ -1,0 +1,135 @@
+/* General page styling */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header and main heading */
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #17365d;
+}
+
+/* Main content area */
+main {
+    max-width: 700px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+/* Round student picture */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #17365d;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Registration form */
+form {
+    background-color: white;
+    border: 2px solid #17365d;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Form input fields */
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+/* Buttons */
+button,
+.button {
+    display: inline-block;
+    background-color: #17365d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background-color: #287a4b;
+}
+
+/* Links */
+a {
+    color: #17365d;
+}
+
+.button {
+    color: white;
+}
+
+/* Centered text */
+.center {
+    text-align: center;
+}
+
+/* Thank-you page */
+.thankyou {
+    background-color: white;
+    border: 2px solid #17365d;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    color: #555555;
+}
